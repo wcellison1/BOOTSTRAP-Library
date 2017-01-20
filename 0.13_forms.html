@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap</title>
+
+	<!-- Bootstrap CSS CDN -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<!-- Bootstrap jQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+	<form>
+	<div class="form-group">
+    	<label for="emailInput">Email address</label>
+    	<input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Please enter your email">
+	<small id="emailHelp" class="form-text text-muted">Note: We'll never share your email with anyone else.</small>
+</div>
+
+<div class="form-group">
+   	<label for="passwordInput">Password</label>
+	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+</div>
+
+<div class="form-group">
+<label for="confirmPasswordInput">Confirm Password</label>
+	<input type="confirmPassword" class="form-control" id="exampleInputPassword1" placeholder="Password">
+</div>
+	  	  <div class="form-group">
+		    <label for="classSelect1">Choose a course</label>
+		    <select class="form-control" id="classSelect1">
+		      <option>HTML</option>
+		      <option>CSS</option>
+		      <option>JavaScript</option>
+		      <option>jQuery</option>
+		      <option>Bootstrap</option>
+		    </select>
+		  </div>
+		  <div class="form-group">
+		    <label for="classSelect2">Which do you already know?</label>
+		    <select multiple class="form-control" id="classSelect2">
+		      <option>HTML</option>
+		      <option>CSS</option>
+		      <option>JavaScript</option>
+		      <option>jQuery</option>
+		      <option>Bootstrap</option>
+		    </select>
+		  </div>
+
+		<div class="form-group">
+		<label for="exampleTextarea">Tell us what you'd like to learn</label>
+				<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+		</div>
+
+		<div class="form-group">
+			<label for="exampleInputFile">Resume</label>
+			<input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+			<small id="fileHelp" class="form-text text-muted">Please upload your resume by clicking the button.</small>
+		</div>
+		 <fieldset class="form-group">
+		    <legend>Contact Types</legend>
+		    <div class="form-check">
+		      <label class="form-check-label">
+		        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+		        Feel free to contact me by phone &mdash; by email.
+		      </label>
+		    </div>
+		    <div class="form-check">
+		    <label class="form-check-label">
+		        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+		        Please just contact me by phone for now.
+		      </label>
+		    </div>
+		    <div class="form-check disabled">
+		    <label class="form-check-label">
+		        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+		        Feel free to just email me.
+		      </label>
+		    </div>
+		  </fieldset>
+		  <div class="form-check">
+		    <label class="form-check-label">
+		      <input type="checkbox" class="form-check-input">
+		      Yes, I would like to receive promotional materials.
+		    </label>
+		  </div>
+	 <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+	 
+
+
+
+
+
+
+	</form>
+
+	<!-- Bootstrap JS CDN -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
